@@ -52,13 +52,14 @@ body {
     color: var(--branco-primario);
     background-color: var(--azul-terciario);
     border-radius: 8px;
-    padding: 1em;
+    padding: 1em ;
     font-family: var(--fonte-inter);
     font-weight: 400px;
     font-size: 16px;
     margin-bottom: 1em;
     display: flex;
     width: 480px;
+    justify-content: center;
 }
 
 .container__botao__2 {
@@ -68,13 +69,14 @@ body {
     box-sizing: border-box;
     border: 1px solid var(--branco-primario);
     border-radius: 8px;
-    padding: 16px 150px;
+    padding: 16px;
     font-family: var(--fonte-inter);
     font-weight: 400px;
     font-size: 16px;
     margin-bottom: 10px;
     display: flex;
     width: 512px;
+    justify-content: center;
 }
 
 .container__aviso {
