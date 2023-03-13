@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --branco-primario: #ffffff;
+    --cinza-secundario: #C0C0C0;
+    --azul-terciario: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-inter: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-primario);
+    font-family: var(--fonte-inter);
+    font-weight: 400px;
+    font-size: 16px;
+}
+
+.principal {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.container__titulo {
+    font-family: var(--fonte-inter);
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.container__imagem {
+    margin: 22px 0 54px 0;
+} 
+.container__botao {
+    text-decoration: none;
+    color: var(--branco-primario);
+    background-color: var(--azul-terciario);
+    border-radius: 8px;
+    padding: 1em ;
+    font-family: var(--fonte-inter);
+    font-weight: 400px;
+    font-size: 16px;
+    margin-bottom: 1em;
+    display: flex;
+    width: 480px;
+    justify-content: center;
+}
+
+.container__botao__2 {
+    text-decoration: none;
+    color: var(--branco-primario);
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid var(--branco-primario);
+    border-radius: 8px;
+    padding: 16px;
+    font-family: var(--fonte-inter);
+    font-weight: 400px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 512px;
+    justify-content: center;
+}
+
+.container__aviso {
+    font-family: var(--fonte-inter);
+    font-weight: 400px;
+    font-size: 12px;
+}
+
+
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.container__plataforma {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    font-family: var(--fonte-inter);
+    margin-bottom: 8px;
+    margin-left: 69px;
+}
+
+.descricao__aviso {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--fonte-inter);
+    margin-left: 69px;
+    color: var(--cinza-secundario);
+}
+
+
+.terciario {
+    align-items: center;
+    margin: 0 10em;
+    gap: 70px;
+}
+
+.texto__tela {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-inter);
+    margin-bottom: 32px;
+}
+
+.botao__tela {
+    text-decoration: none;
+    color: var(--branco-primario);
+    background-color: var(--azul-terciario);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+
+.quarto {
+    align-items: center;
+    margin: 0 10em;
+    gap: 44px;
+}
+
+.titulo__notebook {
+    font-family: var(--fonte-inter);
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.paragrafo__notebook {
+    font-family: var(--fonte-inter);
+    font-weight: 400px;
+    font-size: 16px;
+    color: var(--cinza-secundario);
+}
+
+
+.quinto {
+    align-items: center;
+    margin: 0 10em;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.quinto__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    font-family: var(--fonte-inter);
+}
+
+.texto__quinto {
+    font-family: var(--fonte-inter);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--branco-primario);
+}
+
+.todas__as__imagens {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 69px;
+}
+
+
+
+.footer {
+    text-align: center;
+}
+
+.logo__alura {
+    margin-bottom: 41px;
+}
+
+.botoes__footer {
+    margin-bottom: 24px;
+}
+
+.footer__button {
+    text-decoration: none;
+    margin-right: 16px;
+    margin-left: 16px;
+    color: var(--branco-primario);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--fonte-inter);
+}
+
+.copyright {
+    font-family: var(--fonte-inter);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    margin-bottom: 24px;
+    
+}
+
+.adress {
+    font-family: var(--fonte-inter);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    margin-bottom: 5em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
